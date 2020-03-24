@@ -126,3 +126,10 @@ typedef struct complexNumber {
   float imaginaryPart;
 
 } complexNumber;
+
+typedef struct centrum {
+
+  int data;
+  centrum * nextLinkedValue;
+
+} centrum;
