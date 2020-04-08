@@ -127,9 +127,17 @@ typedef struct complexNumber {
 
 } complexNumber;
 
-typedef struct centrum {
+typedef struct linkedCentrum {
 
   int data;
-  centrum * nextLinkedValue;
+  linkedCentrum * nextLinkedValue;
 
-} centrum;
+} linkedCentrum;
+
+typedef struct doubleLinkedCentrum {
+
+  int data;
+  doubleLinkedCentrum * nextDoubleLinkedValue;
+  doubleLinkedCentrum * previousDoubleLinkedValue;
+
+} doubleLinkedCentrum;
