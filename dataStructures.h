@@ -88,44 +88,6 @@ typedef struct graphType {
 
 } graphType;
 
-typedef struct limits {
-
-  int minimLimit_int_;
-  int maximLimit_int_;
-
-  float minimLimit_float_;
-  float maximLimit_float_;
-
-  char minimLimit_char_;
-  char maximLimit_char_;
-
-} limits;
-
-typedef struct linearEquation {
-
-  float slope;
-  float y_intercept;
-  float root;
-
-} linearEquation;
-
-typedef struct quadraticEquation {
-
-  float coefficient_a;
-  float coefficient_b;
-  float coefficient_c;
-  limits roots;
-
-} quadraticEquation;
-
-typedef struct complexNumber {
-
-  int complexNumberLength;
-  float realPart;
-  float imaginaryPart;
-
-} complexNumber;
-
 typedef struct linkedCentrum {
 
   int data;
