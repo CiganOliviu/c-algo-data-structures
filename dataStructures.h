@@ -91,14 +91,14 @@ typedef struct graphType {
 typedef struct linkedCentrum {
 
   int data;
-  linkedCentrum * nextLinkedValue;
+  struct linkedCentrum * nextLinkedValue;
 
 } linkedCentrum;
 
 typedef struct doubleLinkedCentrum {
 
   int data;
-  doubleLinkedCentrum * nextDoubleLinkedValue;
-  doubleLinkedCentrum * previousDoubleLinkedValue;
+  struct doubleLinkedCentrum * nextDoubleLinkedValue;
+  struct doubleLinkedCentrum * previousDoubleLinkedValue;
 
 } doubleLinkedCentrum;
